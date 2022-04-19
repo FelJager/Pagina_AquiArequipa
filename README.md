@@ -1,2 +1,2 @@
-# Pagina_En_Peru
- Pagina Cusco
+# Pagina_AquiArequipa
+ Pagina Arequipa
