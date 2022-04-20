@@ -108,29 +108,26 @@ hr{
 }
 
 .contenedor-folclore {
-    max-width: 88%;
-    padding: 1rem;
-    margin: 0 auto;
+    width: auto;
+    padding: 50px;
+    margin: 5%;
     display: grid;
-    grid-template-columns: 600px 600px 600px;
-    grid-template-rows: 50px 200px 200px 200px;
-    grid-gap: 1rem;
+    grid-template-areas: ".folclore1"
+                         ".contenedor-carnaval .img-carnaval" 
+                         ".contenedor-yaravi .img-yaravi"
+                         ".contenedor-pampena .img-pampena";
     background-color: aliceblue;
 }
 
 .contenedor-folclore img {
     object-fit: cover;
-    height: 90%;
+    width: 300px;
     border-radius: 10px;
 }
 
-.folclore {
-    grid-column: 1 / 4;
+.contenedor-cocina {
+    
 }
 
-.contenedor-carnaval {
-    grid-row: 2 / 3;
-    grid-column: 1 / 3;
-}
 
 
