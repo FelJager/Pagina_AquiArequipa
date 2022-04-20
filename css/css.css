@@ -146,6 +146,10 @@ hr{
 }
 
 footer {
-    padding: 100px 0;
+    height: 150px;
     background: #333;
+    text-align: center;
+    color: antiquewhite;
+    font-size: larger;
+    padding: 40px;
 }
