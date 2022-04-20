@@ -86,6 +86,7 @@ section {
 
 .contenedor-imagen img {
     width: 80%;
+    border-radius: 10px;
 }
 
 .religion table {
@@ -100,3 +101,36 @@ footer {
     padding: 100px 0;
     background: rgba(192, 192, 192, 0.9);
 }
+
+hr{
+    background-color: #333;
+    height: 5px;
+}
+
+.contenedor-folclore {
+    max-width: 88%;
+    padding: 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+    grid-template-rows: 50px 200px 200px 200px;
+    grid-gap: 1rem;
+    background-color: aliceblue;
+}
+
+.contenedor-folclore img {
+    object-fit: cover;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.folclore {
+    grid-column: 1 / 4;
+}
+
+.contenedor-carnaval {
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+}
+
+
