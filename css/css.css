@@ -75,7 +75,8 @@ section {
 
 .religion {
     float: left;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 150px;
 }
 
 .contenedor-imagen {
@@ -97,11 +98,6 @@ section {
     background-color: aqua;
 }
 
-footer {
-    padding: 100px 0;
-    background: rgba(192, 192, 192, 0.9);
-}
-
 hr{
     background-color: #333;
     height: 5px;
@@ -111,11 +107,6 @@ hr{
     width: auto;
     padding: 50px;
     margin: 5%;
-    display: grid;
-    grid-template-areas: ".folclore1"
-                         ".contenedor-carnaval .img-carnaval" 
-                         ".contenedor-yaravi .img-yaravi"
-                         ".contenedor-pampena .img-pampena";
     background-color: aliceblue;
 }
 
@@ -126,8 +117,35 @@ hr{
 }
 
 .contenedor-cocina {
-    
+    background-color: aliceblue;
+    padding: 7%;
+    text-align:justify;
+    margin: 5%;
 }
 
+.costumbres-gastronomicas {
+    margin-top: 50px;
+    text-align: justify;
+}
 
+.costumbres-gastronomicas p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
+.costumbres-platos table {
+    margin: 100px;
+    align-content: center;
+    text-align: center;
+}
+
+.contenedor-cocina img {
+    margin: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+footer {
+    padding: 100px 0;
+    background: #333;
+}
