@@ -65,23 +65,35 @@ section {
     margin: 5%;
 }
 
-.contenedor-cultura {
+.contenedor-religion {
     background-color: aliceblue;
     display: flex;
-    padding: 30px;
+    padding: 50px;
     text-align:justify;
+    margin: 5%;
 }
 
 .religion {
     float: left;
+    margin-right: 30px;
 }
 
 .contenedor-imagen {
     float: right;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .contenedor-imagen img {
     width: 80%;
+}
+
+.religion table {
+    border-radius: 10px;
+}
+
+.religion table td:nth-child(1) {
+    background-color: aqua;
 }
 
 footer {
