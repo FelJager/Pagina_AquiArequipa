@@ -153,3 +153,8 @@ footer {
     font-size: larger;
     padding: 40px;
 }
+
+.contenedor-lugares-turisticos {
+    background-color: aliceblue;
+    padding: 10px;
+}
