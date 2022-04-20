@@ -100,7 +100,7 @@ section {
 
 hr{
     background-color: #333;
-    height: 5px;
+    height: 1px;
 }
 
 .contenedor-folclore {
@@ -149,7 +149,39 @@ footer {
     height: 150px;
     background: #333;
     text-align: center;
-    color: antiquewhite;
+    color: aliceblue;
     font-size: larger;
     padding: 40px;
+}
+
+.contenedor-lugares-turisticos {
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+
+.contenedor-lugares-turisticos Volcan-Misti Monasterio-de-santa-catalina Reserva-nacional-salinas-y-aguada Mirador-de-yanahuara Bosque-de-piedras-choqolaqa Ruta-del-sillar Cañon-del-colca Bosque-de-piedras-de-imata-y-catarata-de-pillones{
+    margin: 20px;
+    padding: 5px;
+    float: left;
+    width: 600px;
+    margin-right: 50px;
+}
+
+.img-historia {
+    align-content: center;
+    width: 80%;
+    border-radius: 10px;
+}
+
+section {
+    background-color: aliceblue;
+}
+
+.primer-parrafo {
+    margin: 50px;;
+}
+
+.segundo-parrafo {
+    margin: 50px;
 }
